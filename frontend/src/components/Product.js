@@ -7,7 +7,7 @@ import Rating from './Rating';
 
 export default function Product(props) {
   const { product } = props;
-
+  //step
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const {
     cart: { cartItems },
